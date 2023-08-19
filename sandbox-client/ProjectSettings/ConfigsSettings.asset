@@ -1,0 +1,4 @@
+﻿MessagePackPath: ..\helpers\MessagePackCodeGen.bat
+InputPath: ..\configs
+OutputPath: Assets\Game\Common\Configs\GameConfig.bytes
+Version: v1

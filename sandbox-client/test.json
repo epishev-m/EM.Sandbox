@@ -1,0 +1,37 @@
+{
+  "TestList": [
+    {
+      "Number": 1,
+      "Id": "test1"
+    },
+    {
+      "Number": 2,
+      "Id": "test2"
+    }
+  ],
+  "TestLink": "Aaaa",
+  "TestBaseList": [
+    {
+      "Int": 10,
+      "Name": "int_name"
+    },
+    {
+      "Bool": true,
+      "Name": "bool_name"
+    }
+  ],
+  "TestObj": {
+    "Number": 2,
+    "Id": "test3"
+  },
+  "TestNullIndexList": [
+    {
+      "Number": 1,
+      "Id": "test4"
+    },
+    {
+      "Number": 1,
+      "Id": "test5"
+    }
+  ]
+}

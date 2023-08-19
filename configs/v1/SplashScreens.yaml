@@ -1,0 +1,9 @@
+SplashScreens:
+- Name: PublisherSplash
+  IsSkipped: true
+- Name: DeveloperSplash
+  IsSkipped: true
+- Name: DisclaimerSplash
+  IsSkipped: false
+- Name: SavingWarningSplash
+  IsSkipped: false

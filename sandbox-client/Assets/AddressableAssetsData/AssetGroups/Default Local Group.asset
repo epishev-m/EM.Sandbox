@@ -22,6 +22,41 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb2dc800f43079c4a8b3e88fba44d045
+    m_Address: VersionConfig
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0b071e472fdafe438f925683ebd890e
+    m_Address: SaveConfig
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e2dcbd5e04bcb746bef918338980a40
+    m_Address: CheatsPanelView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 811f72cf40cd5f44b925554662a785a0
+    m_Address: GameConfig
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f717e5b4a87ef8441b2659afc9964639
+    m_Address: SplashScreenPanelView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46524e5dd16a4054c8a5f40dc0d5aa5e
+    m_Address: GdpRegulationPanelView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3302ca27ab9e0024ca262405dc148200
+    m_Address: InternetConnectionPanelView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: dd5a27ec1f89a4246b60eda7845d064b, type: 2}
   m_SchemaSet:

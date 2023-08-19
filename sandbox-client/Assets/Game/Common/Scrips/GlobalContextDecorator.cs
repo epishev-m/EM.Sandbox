@@ -1,9 +1,10 @@
+using EM.Foundation;
+using EM.Game.Configs;
+using EM.GameKit.Context;
+using EM.IoC;
+
 namespace EM.Game
 {
-
-using GameKit.Context;
-using Foundation;
-using IoC;
 
 public sealed class GlobalContextDecorator : ContextDecorator
 {
@@ -16,14 +17,16 @@ public sealed class GlobalContextDecorator : ContextDecorator
 			.BindProfile(LifeTime.Global)
 			.BindCheats(LifeTime.Global)
 			.BindStorage(LifeTime.Global)
-			.BindStateMachine();
+			.BindStateMachine(LifeTime.Global)
+			.BindConfigs(LifeTime.Global);
 	}
 
 	public override void Configure(IDiContainer container)
 	{
 		container.ConfigureGameLoop()
 			.ConfigureEcsDebug(LifeTime.Global)
-			.ConfigureUiSystem("UiContainer");
+			.ConfigureUiSystem("UiContainer")
+			.ConfigureTestCheats(LifeTime.Global);
 	}
 
 	public override void Release(IDiContainer container)

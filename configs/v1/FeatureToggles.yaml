@@ -1,0 +1,4 @@
+FeatureToggles:
+  SplashScreen: true
+  InternetConnection: true
+  GdpRegulation: true

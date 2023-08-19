@@ -1,0 +1,26 @@
+TestList:
+- Number: 1
+  TestNull: 
+  Id: test1
+- Number: 2
+  TestNull: 
+  Id: test2
+TestLink:
+  Id: Aaaa
+TestBaseList:
+- Int: 10
+  Name: int_name
+- Bool: true
+  Name: bool_name
+TestObj:
+  Number: 2
+  TestNull: 
+  Id: test3
+TestNullList: 
+TestNullIndexList:
+- Number: 1
+  TestNull: 
+  Id: test4
+- Number: 1
+  TestNull: 
+  Id: test5
