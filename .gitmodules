@@ -1,0 +1,30 @@
+[submodule "framework/EM.Foundation"]
+	path = framework/EM.Foundation
+	url = https://github.com/epishev-m/EM.Foundation.git
+[submodule "framework/EM.Assistant"]
+	path = framework/EM.Assistant
+	url = https://github.com/epishev-m/EM.Assistant.git
+[submodule "framework/EM.GameKit"]
+	path = framework/EM.GameKit
+	url = https://github.com/epishev-m/EM.GameKit.git
+[submodule "framework/EM.UISystem"]
+	path = framework/EM.UISystem
+	url = https://github.com/epishev-m/EM.UISystem.git
+[submodule "framework/EM.Configs"]
+	path = framework/EM.Configs
+	url = https://github.com/epishev-m/EM.Configs.git
+[submodule "framework/EM.ProfileSystem"]
+	path = framework/EM.ProfileSystem
+	url = https://github.com/epishev-m/EM.ProfileSystem.git
+[submodule "framework/EM.IoC"]
+	path = framework/EM.IoC
+	url = https://github.com/epishev-m/EM.IoC.git
+[submodule "framework/EM.GameKit.Context"]
+	path = framework/EM.GameKit.Context
+	url = https://github.com/epishev-m/EM.GameKit.Context.git
+[submodule "framework/EM.BuildSystem"]
+	path = framework/EM.BuildSystem
+	url = https://github.com/epishev-m/EM.BuildSystem.git
+[submodule "framework/EM.GameKit.EcsExtensions"]
+	path = framework/EM.GameKit.EcsExtensions
+	url = https://github.com/epishev-m/EM.GameKit.EcsExtensions.git
