@@ -1,7 +1,7 @@
 using System.Threading;
 using Cysharp.Threading.Tasks;
-using EM.Foundation;
 using EM.Game.Configs;
+using EM.GameKit;
 using EM.GameKit.Context;
 
 namespace EM.Game
@@ -11,27 +11,30 @@ public sealed class StartupContext : Context
 {
 	protected override void Initialize()
 	{
-		DiContainer.BindSplashScreen<SplashScreenConfigProvider>(LifeTime.Local)
-			.BindInternetConnection<InternetConnectionConfigProvider>(LifeTime.Local)
-			.BindGdpRegulation<GdpRegulationConfigProvider>(LifeTime.Local)
+		DiContainer.BindSplashScreen<SplashScreenConfigProvider>()
+			.BindInternetConnection<InternetConnectionConfigProvider>()
+			.BindGdpRegulation<GdpRegulationConfigProvider>()
 			.BindStartupStates();
 	}
 
 	protected override void Configure()
 	{
-		DiContainer.ConfigureStartupProfile();
+		DiContainer.ConfigureStartupProfile()
+			.ConfigureTestCheats();
 	}
 
 	protected override void Release()
 	{
-		DiContainer.ReleaseUiSystem(LifeTime.Global)
-			.ReleaseProfile(LifeTime.Global)
-			.ReleaseGameLoop(LifeTime.Global);
+		DiContainer.ReleaseUiSystem()
+			.ReleaseProfile()
+			.ReleaseGameLoop();
 	}
 
 	protected override async UniTask RunAsync(CancellationToken ct)
 	{
-		await DiContainer.RunStartup(ct);
+		var stateMachine = DiContainer.Resolve<IGameStateMachine>();
+
+		await stateMachine.EnterAsync<PreloadState>(ct);
 	}
 }
 

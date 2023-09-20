@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using EM.Configs;
 using EM.Foundation;
-using EM.Game.Configs;
 using MessagePack;
 using MessagePack.Formatters;
 using MessagePack.Resolvers;

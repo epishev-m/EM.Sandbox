@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using EM.GameKit;
+using EM.GameKit.UI;
 
 namespace EM.Game.Configs
 {

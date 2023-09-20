@@ -1,10 +1,11 @@
-﻿namespace EM.Game
-{
-
-using System.Threading;
+﻿using System.Threading;
 using Cysharp.Threading.Tasks;
-using GameKit;
-using Profile;
+using EM.GameKit;
+using EM.GameKit.UI;
+using EM.Profile;
+
+namespace EM.Game
+{
 
 public sealed class PreloadState : IGameState
 {

@@ -28,3 +28,6 @@
 [submodule "framework/EM.GameKit.EcsExtensions"]
 	path = framework/EM.GameKit.EcsExtensions
 	url = https://github.com/epishev-m/EM.GameKit.EcsExtensions.git
+[submodule "framework/EM.GameKit.UI"]
+	path = framework/EM.GameKit.UI
+	url = https://github.com/epishev-m/EM.GameKit.UI.git

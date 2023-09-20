@@ -8,6 +8,7 @@
     "com.em.gamekit": "file:../../framework/EM.GameKit",
     "com.em.gamekit.context": "file:../../framework/EM.GameKit.Context",
     "com.em.gamekit.ecs": "file:../../framework/EM.GameKit.EcsExtensions",
+    "com.em.gamekit.ui": "file:../../framework/EM.GameKit.UI",
     "com.em.ioc": "file:../../framework/EM.IoC",
     "com.em.profilesystem": "file:../../framework/EM.ProfileSystem",
     "com.em.uisystem": "file:../../framework/EM.UISystem",

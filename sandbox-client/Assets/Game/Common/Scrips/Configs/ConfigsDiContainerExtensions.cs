@@ -8,7 +8,7 @@ namespace EM.Game.Configs
 public static class ConfigsDiContainerExtensions
 {
 	public static IDiContainer BindConfigs(this IDiContainer container,
-		LifeTime lifeTime)
+		LifeTime lifeTime = LifeTime.Global)
 	{
 		container.Bind<ILibraryEntryCatalog>()
 			.SetLifeTime(lifeTime)

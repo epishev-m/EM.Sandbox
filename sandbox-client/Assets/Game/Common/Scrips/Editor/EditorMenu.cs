@@ -1,4 +1,4 @@
-﻿using EM.GameKit.Editor;
+﻿using EM.GameKit.UI.Editor;
 using UnityEditor;
 
 namespace EM.Game.Editor

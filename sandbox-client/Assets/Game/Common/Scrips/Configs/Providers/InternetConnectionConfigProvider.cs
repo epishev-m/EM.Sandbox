@@ -1,4 +1,4 @@
-﻿using EM.GameKit;
+﻿using EM.GameKit.UI;
 
 namespace EM.Game.Configs
 {

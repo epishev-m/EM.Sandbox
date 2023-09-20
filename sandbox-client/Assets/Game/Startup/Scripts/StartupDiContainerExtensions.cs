@@ -1,6 +1,4 @@
-﻿using System.Threading;
-using Cysharp.Threading.Tasks;
-using EM.GameKit;
+﻿using EM.GameKit.UI;
 using EM.IoC;
 using EM.Profile;
 
@@ -26,14 +24,6 @@ public static class StartupDiContainerExtensions
 			.To<GdpRegulationSaver>();
 
 		return container;
-	}
-
-	public static async UniTask RunStartup(this IDiContainer container,
-		CancellationToken ct)
-	{
-		var stateMachine = container.Resolve<IGameStateMachine>();
-
-		await stateMachine.EnterAsync<PreloadState>(ct);
 	}
 }
 

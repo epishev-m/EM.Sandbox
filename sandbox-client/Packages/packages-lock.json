@@ -49,6 +49,12 @@
       "source": "local",
       "dependencies": {}
     },
+    "com.em.gamekit.ui": {
+      "version": "file:../../framework/EM.GameKit.UI",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.em.ioc": {
       "version": "file:../../framework/EM.IoC",
       "depth": 0,
